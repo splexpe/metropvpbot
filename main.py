@@ -41,7 +41,7 @@ bot.remove_command('help')
 @bot.command(pass_context = True, name = 'Help', aliases=['help'])
 async def Help(ctx):
   author = ctx.message.author                           	
-  embed = discord.Embed(description="Metro Help", color=0x157696, inline=True)
+  embed = discord.Embed(description="MetroPvP's Commands", color=0x157696, inline=True)
   embed.add_field(name="Here", value="Makes sure bot is here!", inline=False)
   embed.add_field(name="Sc", value="Gives Member count and Bot count", inline=False)
   embed.add_field(name="Info", value="Gives info about MetroPvP!", inline=False)
