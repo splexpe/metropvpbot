@@ -50,12 +50,12 @@ async def Help(ctx):
   embed.add_field(name="Purge", value="Deletes Chat messages!", inline=False)
   embed.add_field(name="Kick", value="Kicks player!", inline=False)
   embed.add_field(name="Ban", value="Bans Player!", inline=False)
-  embed.add_field(name="strike", value="Gives player a strike!", inline=False)
+  embed.add_field(name="Strike", value="Gives player a strike!", inline=False)
   await bot.say(embed=embed) 
 
 @bot.command(pass_context = True, name = 'Ip', aliases=['ip'])
 async def Ip(ctx):
-  embed = discord.Embed(description="mpvp.nbb.wtf", color=0x157696, inline=True)
+  embed = discord.Embed(description="metropvp.org", color=0x157696, inline=True)
   await bot.say(embed=embed)
 
 
@@ -70,7 +70,7 @@ async def Here():
 @bot.command(pass_context = True, name = 'Vote', aliases=['vote'])
 async def Vote(ctx):
   """Gives server vote link"""
-  embed = discord.Embed(description="mcpe.guru/8g6w2r", color=0x157696, inline=True)
+  embed = discord.Embed(description="https://mcpe.guru/8g6w2r", color=0x157696, inline=True)
   await bot.say(embed=embed)
 
 
